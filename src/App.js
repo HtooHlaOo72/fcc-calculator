@@ -1,10 +1,13 @@
 import "./styles.css";
+import CalculatorBox from './components/CalculatorBox';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <CalculatorBox />
     </div>
   );
 }
