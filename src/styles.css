@@ -7,13 +7,15 @@
   text-align: right;
   margin:-15px;
   padding-bottom:10px;
+  overflow: hidden;
   
 }
-#main_display{
+#display{
   text-align:right;
   font-size:35px;
   margin:-15px;
   padding-top:10px;
+  overflow: hidden;
 }
 #cbox{
   width:400px;
