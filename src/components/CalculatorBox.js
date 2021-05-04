@@ -109,7 +109,7 @@ class Calculator extends React.Component{
     this.setState({...this.state,lastText:''});
   }
   clearDisplay=()=>{
-    console.log('clear...')
+    
     this.setState({
     lastText:'',
     display:'',
